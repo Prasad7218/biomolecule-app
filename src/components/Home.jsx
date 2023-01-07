@@ -7,9 +7,7 @@ const Home = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">
-          BioMolecule Reports
-        </a>
+        <a className="navbar-brand">BioMolecule Reports</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -24,49 +22,33 @@ const Home = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a className="nav-link">
                 Home <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                Aim and scope
-              </a>
+              <a className="nav-link">Aim and scope</a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                To Author's
-              </a>
+              <a className="nav-link">To Author's</a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                To Author's
-              </a>
+              <a className="nav-link">To Author's</a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                Editorial Board
-              </a>
+              <a className="nav-link">Editorial Board</a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                Awards
-              </a>
+              <a className="nav-link">Awards</a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                Mode of Payment
-              </a>
+              <a className="nav-link">Mode of Payment</a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                About Us
-              </a>
+              <a className="nav-link">About Us</a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                Contact us
-              </a>
+              <a className="nav-link">Contact us</a>
             </li>
           </ul>
         </div>
@@ -149,34 +131,22 @@ const Home = () => {
               <h5>Features</h5>
               <ul className="list-unstyled text-small">
                 <li>
-                  <a className="text-muted" href="#">
-                    Cool stuff
-                  </a>
+                  <a className="text-muted">Cool stuff</a>
                 </li>
                 <li>
-                  <a className="text-muted" href="#">
-                    Random feature
-                  </a>
+                  <a className="text-muted">Random feature</a>
                 </li>
                 <li>
-                  <a className="text-muted" href="#">
-                    Team feature
-                  </a>
+                  <a className="text-muted">Team feature</a>
                 </li>
                 <li>
-                  <a className="text-muted" href="#">
-                    Stuff for developers
-                  </a>
+                  <a className="text-muted">Stuff for developers</a>
                 </li>
                 <li>
-                  <a className="text-muted" href="#">
-                    Another one
-                  </a>
+                  <a className="text-muted">Another one</a>
                 </li>
                 <li>
-                  <a className="text-muted" href="#">
-                    Last time
-                  </a>
+                  <a className="text-muted">Last time</a>
                 </li>
               </ul>
             </div>
@@ -184,24 +154,16 @@ const Home = () => {
               <h5>Resources</h5>
               <ul className="list-unstyled text-small">
                 <li>
-                  <a className="text-muted" href="#">
-                    Resource
-                  </a>
+                  <a className="text-muted">Resource</a>
                 </li>
                 <li>
-                  <a className="text-muted" href="#">
-                    Resource name
-                  </a>
+                  <a className="text-muted">Resource name</a>
                 </li>
                 <li>
-                  <a className="text-muted" href="#">
-                    Another resource
-                  </a>
+                  <a className="text-muted">Another resource</a>
                 </li>
                 <li>
-                  <a className="text-muted" href="#">
-                    Final resource
-                  </a>
+                  <a className="text-muted">Final resource</a>
                 </li>
               </ul>
             </div>
@@ -209,24 +171,16 @@ const Home = () => {
               <h5>About</h5>
               <ul className="list-unstyled text-small">
                 <li>
-                  <a className="text-muted" href="#">
-                    Team
-                  </a>
+                  <a className="text-muted">Team</a>
                 </li>
                 <li>
-                  <a className="text-muted" href="#">
-                    Locations
-                  </a>
+                  <a className="text-muted">Locations</a>
                 </li>
                 <li>
-                  <a className="text-muted" href="#">
-                    Privacy
-                  </a>
+                  <a className="text-muted">Privacy</a>
                 </li>
                 <li>
-                  <a className="text-muted" href="#">
-                    Terms
-                  </a>
+                  <a className="text-muted">Terms</a>
                 </li>
               </ul>
             </div>
