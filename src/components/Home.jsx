@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import C581 from "../images/C581.png";
 import download from "../images/download.jpg";
 import fbio from "../images/fbio.jpg";
+import b2 from "../images/b2.jpg";
+import b3 from "../images/b3.jpg";
+import b4 from "../images/b4.jpg";
+import "./Home.css";
 
 const Home = () => {
   return (
@@ -133,12 +137,42 @@ const Home = () => {
         </a>
       </div>
 
+      <div className="cards-container">
+        <div className="card" style={{ width: "18rem" }}>
+          <img src={b2} className="card-img-top card-img" alt="..." />
+          <div className="card-body">
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div className="card" style={{ width: "18rem" }}>
+          <img src={b3} className="card-img-top card-img" alt="..." />
+          <div className="card-body">
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div className="card" style={{ width: "18rem" }}>
+          <img src={b4} className="card-img-top card-img" alt="..." />
+          <div className="card-body">
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <footer className="bg-light py-5">
         <div className="container">
           <div className="row">
             <div className="col-12 col-md">
               <small className="d-block mb-3 text-muted">
-                &copy; My Company
+                &copy; Biomolecule pvt Ltd
               </small>
             </div>
             <div className="col-6 col-md">

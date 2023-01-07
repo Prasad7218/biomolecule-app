@@ -1,7 +1,7 @@
 import React from "react";
 
-const aimscope = () => {
+const Aimscope = () => {
   return <div>aimscope</div>;
 };
 
-export default aimscope;
+export default Aimscope;
