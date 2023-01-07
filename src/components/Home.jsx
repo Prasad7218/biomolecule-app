@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import C581 from "../images/C581.png";
 import download from "../images/download.jpg";
 import fbio from "../images/fbio.jpg";
@@ -7,7 +8,9 @@ const Home = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand">BioMolecule Reports</a>
+        <Link to="/home" className="navbar-brand">
+          BioMolecule Reports
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -22,33 +25,44 @@ const Home = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link">
+              <Link to="/" className="nav-link">
                 Home <span className="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link">Aim and scope</a>
+              <Link to="/" className="nav-link">
+                Aim and scope
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link">To Author's</a>
+              <Link to="/" className="nav-link">
+                Aim and scope
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link">To Author's</a>
+              <Link to="/" className="nav-link">
+                Aim and scope
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link">Editorial Board</a>
+              <Link to="/" className="nav-link">
+                Aim and scope
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link">Awards</a>
+              <Link to="/" className="nav-link">
+                Aim and scope
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link">Mode of Payment</a>
+              <Link to="/" className="nav-link">
+                Aim and scope
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link">About Us</a>
-            </li>
-            <li className="nav-item active">
-              <a className="nav-link">Contact us</a>
+              <Link to="/" className="nav-link">
+                Aim and scope
+              </Link>
             </li>
           </ul>
         </div>
@@ -131,22 +145,34 @@ const Home = () => {
               <h5>Features</h5>
               <ul className="list-unstyled text-small">
                 <li>
-                  <a className="text-muted">Cool stuff</a>
+                  <Link to="/" className="text-muted">
+                    Cool stuff
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-muted">Random feature</a>
+                  <Link to="/" className="text-muted">
+                    Cool stuff
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-muted">Team feature</a>
+                  <Link to="/" className="text-muted">
+                    Cool stuff
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-muted">Stuff for developers</a>
+                  <Link to="/" className="text-muted">
+                    Cool stuff
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-muted">Another one</a>
+                  <Link to="/" className="text-muted">
+                    Cool stuff
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-muted">Last time</a>
+                  <Link to="/" className="text-muted">
+                    Cool stuff
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -154,16 +180,24 @@ const Home = () => {
               <h5>Resources</h5>
               <ul className="list-unstyled text-small">
                 <li>
-                  <a className="text-muted">Resource</a>
+                  <Link to="/" className="text-muted">
+                    Cool stuff
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-muted">Resource name</a>
+                  <Link to="/" className="text-muted">
+                    Cool stuff
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-muted">Another resource</a>
+                  <Link to="/" className="text-muted">
+                    Cool stuff
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-muted">Final resource</a>
+                  <Link to="/" className="text-muted">
+                    Cool stuff
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -171,16 +205,24 @@ const Home = () => {
               <h5>About</h5>
               <ul className="list-unstyled text-small">
                 <li>
-                  <a className="text-muted">Team</a>
+                  <Link to="/" className="text-muted">
+                    Cool stuff
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-muted">Locations</a>
+                  <Link to="/" className="text-muted">
+                    Cool stuff
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-muted">Privacy</a>
+                  <Link to="/" className="text-muted">
+                    Cool stuff
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-muted">Terms</a>
+                  <Link to="/" className="text-muted">
+                    Cool stuff
+                  </Link>
                 </li>
               </ul>
             </div>
