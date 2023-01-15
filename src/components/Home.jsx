@@ -17,7 +17,7 @@ const Home = () => {
         <img
           src={logo}
           class="img-fluid"
-          style={{ "max-width": "100px", height: "auto" }}
+          style={{ "max-width": "50px", height: "auto" }}
           alt="..."
         />
         {/* </Link> */}
