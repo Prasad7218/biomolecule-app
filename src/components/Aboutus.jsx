@@ -6,25 +6,25 @@ const Aboutus = () => {
       <h1 style={{ "text-align": "center" }}>About Us</h1>
       <div class="container">
         <ul style={{ "margin-top": "40px" }}>
-          <li style={{ "font-size": "2vw", "text-align": "center" }}>
+          <li>
             Bio Genome India is a multidisciplinary skill development and
             bio-services company certified by ISO 9001: 2015 and registered
             under MSME.
           </li>
           <br />
-          <li style={{ "font-size": "2vw", "text-align": "center" }}>
+          <li>
             We are actively involved in training of the students & the faculty
             members. We look forward to develop and manufacture molecular
             biology research and diagnostic kits.
           </li>
           <br />
-          <li style={{ "font-size": "2vw", "text-align": "center" }}>
+          <li>
             We offer one stop solution to the Academia and Industry by providing
             Chemicals, Labwares and Instruments required for research, and also
             Genomics, Sequencing and Primer Synthesis services.
           </li>
           <br />
-          <li style={{ "font-size": "2vw", "text-align": "center" }}>
+          <li>
             {" "}
             Our training centre is located at Nanded district of Maharashtra and
             is equipped with state-of-the-art lab facilities where we provide
@@ -32,13 +32,13 @@ const Aboutus = () => {
             Research.
           </li>
           <br />
-          <li style={{ "font-size": "2vw", "text-align": "center" }}>
+          <li>
             {" "}
             We provide platform to the students and faculty members to publish
             their articles at our Bio Genome eNewsletter.
           </li>
           <br />{" "}
-          <li style={{ "font-size": "2vw", "text-align": "center" }}>
+          <li>
             We are also actively working in the area of agriculture, where we
             are focusing on the issues like Degrading Soil Health and
             Agricultural Waste Management. We will be actively involved in
