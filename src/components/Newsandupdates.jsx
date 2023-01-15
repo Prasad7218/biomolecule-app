@@ -1,7 +1,7 @@
 import React from "react";
 
 const Newsandupdates = () => {
-  return <div>newsandupdates</div>;
+  return <h1 style={{ "margin-top": "40px" }}>News And Updates</h1>;
 };
 
 export default Newsandupdates;

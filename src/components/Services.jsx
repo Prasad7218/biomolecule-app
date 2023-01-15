@@ -1,7 +1,7 @@
 import React from "react";
 
 const Services = () => {
-  return <div>Services</div>;
+  return <h1 style={{ "margin-top": "40px" }}>Services</h1>;
 };
 
 export default Services;

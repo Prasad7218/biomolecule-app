@@ -1,7 +1,11 @@
 import React from "react";
 
 const Agroscience = () => {
-  return <div>agroscience</div>;
+  return (
+    <>
+      <h1 style={{ "margin-top": "40px" }}>Agro Science</h1>
+    </>
+  );
 };
 
 export default Agroscience;

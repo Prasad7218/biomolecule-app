@@ -3,7 +3,7 @@ import React from "react";
 const Aboutus = () => {
   return (
     <>
-      <h1 style={{ "text-align": "center" }}>About Us</h1>
+      <h1 style={{ "margin-top": "40px" }}>About Us</h1>
       <div class="container">
         <ul style={{ "margin-top": "40px" }}>
           <li>
