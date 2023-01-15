@@ -6,15 +6,21 @@ import fbio from "../images/fbio.jpg";
 import b2 from "../images/b2.jpg";
 import b3 from "../images/b3.jpg";
 import b4 from "../images/b4.jpg";
+import logo from "../images/logo.jpeg";
 import "./Home.css";
 
 const Home = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link to="/home" className="navbar-brand">
-          BioMolecule Reports
-        </Link>
+        {/* <Link to="/home" className="navbar-brand"> */}
+        <img
+          src={logo}
+          class="img-fluid"
+          style={{ "max-width": "100px", height: "auto" }}
+          alt="Responsive image"
+        />
+        {/* </Link> */}
         <button
           className="navbar-toggler"
           type="button"
