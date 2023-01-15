@@ -18,7 +18,7 @@ const Home = () => {
           src={logo}
           class="img-fluid"
           style={{ "max-width": "100px", height: "auto" }}
-          alt="Responsive image"
+          alt="..."
         />
         {/* </Link> */}
         <button
@@ -232,27 +232,20 @@ const Home = () => {
               </ul>
             </div>
             <div className="col-6 col-md">
-              <h5>About</h5>
+              <h5>Address</h5>
               <ul className="list-unstyled text-small">
                 <li>
-                  <Link to="/" className="text-muted">
-                    Cool stuff
-                  </Link>
+                  1st Floor, Above Kamdhenu Mart, Ravi Nagar, Old Kautha,
+                  Nanded, Maharashtra- 431 601
+                  <br /> Mo. 8700951287
+                  <br /> Email: biogenomeindia1@gmail.com
                 </li>
                 <li>
-                  <Link to="/" className="text-muted">
-                    Cool stuff
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" className="text-muted">
-                    Cool stuff
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" className="text-muted">
-                    Cool stuff
-                  </Link>
+                  Flat No. 41, Ground floor, BLK-E-10, PKT-3, Sector G-8,
+                  Narela, Near Bawana J. J. Colony New Delhi- 110 040 <br />
+                  Mo. 9013786285
+                  <br />
+                  Email: biogenomeindia@gmail.com
                 </li>
               </ul>
             </div>
