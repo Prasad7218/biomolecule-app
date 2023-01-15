@@ -29,43 +29,33 @@ const Home = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <Link to="/" className="nav-link">
-                Home <span className="sr-only">(current)</span>
+              <Link to="/about" className="nav-link">
+                About Us
               </Link>
             </li>
             <li className="nav-item active">
-              <Link to="/" className="nav-link">
-                Aim and scope
+              <Link to="/services" className="nav-link">
+                Our Services
               </Link>
             </li>
             <li className="nav-item active">
-              <Link to="/" className="nav-link">
-                Aim and scope
+              <Link to="/newsletter" className="nav-link">
+                E News Letter
               </Link>
             </li>
             <li className="nav-item active">
-              <Link to="/" className="nav-link">
-                Aim and scope
+              <Link to="/agroscience" className="nav-link">
+                Agro Science
               </Link>
             </li>
             <li className="nav-item active">
-              <Link to="/" className="nav-link">
-                Aim and scope
+              <Link to="/newsupdates" className="nav-link">
+                News And Updates
               </Link>
             </li>
             <li className="nav-item active">
-              <Link to="/" className="nav-link">
-                Aim and scope
-              </Link>
-            </li>
-            <li className="nav-item active">
-              <Link to="/" className="nav-link">
-                Aim and scope
-              </Link>
-            </li>
-            <li className="nav-item active">
-              <Link to="/" className="nav-link">
-                Aim and scope
+              <Link to="/getintouch" className="nav-link">
+                Get In Touch
               </Link>
             </li>
           </ul>
@@ -179,33 +169,33 @@ const Home = () => {
               <h5>Features</h5>
               <ul className="list-unstyled text-small">
                 <li>
-                  <Link to="/" className="text-muted">
-                    Cool stuff
+                  <Link to="/about" className="text-muted">
+                    About Us
                   </Link>
                 </li>
                 <li>
-                  <Link to="/" className="text-muted">
-                    Cool stuff
+                  <Link to="/services" className="text-muted">
+                    Our Services
                   </Link>
                 </li>
                 <li>
-                  <Link to="/" className="text-muted">
-                    Cool stuff
+                  <Link to="/newsletter" className="text-muted">
+                    E News Letter
                   </Link>
                 </li>
                 <li>
-                  <Link to="/" className="text-muted">
-                    Cool stuff
+                  <Link to="/agroscience" className="text-muted">
+                    Agro Science
                   </Link>
                 </li>
                 <li>
-                  <Link to="/" className="text-muted">
-                    Cool stuff
+                  <Link to="/newsupdates" className="text-muted">
+                    News And Updates
                   </Link>
                 </li>
                 <li>
-                  <Link to="/" className="text-muted">
-                    Cool stuff
+                  <Link to="/getintouch" className="text-muted">
+                    Get In Touch
                   </Link>
                 </li>
               </ul>
